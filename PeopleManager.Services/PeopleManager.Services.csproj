@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PeopleManager.Data\PeopleManager.Data.csproj" />
+    <ProjectReference Include="..\PeopleManager.Model\PeopleManager.Model.csproj" />
+    <ProjectReference Include="..\PeopleManager.Services.Model\PeopleManager.Services.Model.csproj" />
+  </ItemGroup>
+
+</Project>
